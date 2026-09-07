@@ -131,7 +131,7 @@ if (
 ) {
   stop(
     paste0(
-      "caw_revised2_1.csv is missing: ",
+      "clinical_adjudication_worklist_revised.csv is missing: ",
       paste(
         missing_caw_identifiers,
         collapse = ", "
