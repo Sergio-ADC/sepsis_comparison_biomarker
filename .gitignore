@@ -47,3 +47,27 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Study data and derived files
+*.csv
+*.xlsx
+*.xls
+*.rds
+*.rda
+*.RData
+*.parquet
+*.feather
+*.gz
+
+# R local files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# RStudio projects
+*.Rproj
+
+# OS files
+.DS_Store
+Thumbs.db
