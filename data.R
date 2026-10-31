@@ -14015,16 +14015,6 @@ DBI::dbExecute(
 )
 
 
-# Remove a partially created object from the previously failed version.
-DBI::dbExecute(
-  con,
-  "
-  DROP TABLE IF EXISTS
-    discharge_notes_source_normalized;
-  "
-)
-
-
 # ------------------------------------------------------------------------------
 # 44.7 Normalize and restrict notes to the analytical cohort
 #
